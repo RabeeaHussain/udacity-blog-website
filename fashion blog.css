@@ -1,0 +1,85 @@
+  #upper{
+    position:sticky;
+    border: 2px solid yellowgreen;
+  } 
+  .topnav {
+    overflow: hidden;
+  }
+  #body{
+    flex: 1;
+  }
+  #nav{
+    flex: 20;
+  }
+  #bodyContainer{
+    flex: 80;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 30%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:yellowgreen;
+    color: black;
+  }
+  .mainheading{
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size:30px ;
+      flex: 10;
+  } 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    align-self: center;
+    padding-left: 25%;
+    width: 50%;
+    height: 400px;
+    flex: 40;
+   
+  }
+  .grid-item {
+   text-align: center;
+  }
+  /* div of kendall */
+  .img{
+  
+   vertical-align: middle;
+   font-size: 35px;
+   text-decoration: underline;
+   text-decoration-color:yellowgreen;
+  }
+  /*line that seperate kendall and milan  */
+  .line{
+    position:sticky;
+    border: 1.5px solid  grey;
+  }
+  /* milan div  */
+  .milan{
+    
+    vertical-align: middle;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color:yellowgreen;
+  }
+  /* dior div */
+  .dior{
+    vertical-align: middle;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color:yellowgreen;
+  }
+  .link{
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 16px;
+  }

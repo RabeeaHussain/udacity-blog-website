@@ -1,0 +1,64 @@
+.topnav {
+    overflow: hidden;
+}
+
+#nav{
+    flex: 20;
+}
+/* sytling topnav */
+.topnav a {
+    color: black;
+    text-align:center;
+    padding:  65px 50px 75px;
+    text-decoration: none;
+    word-spacing: 40%;
+    font-size: 50px;
+}
+
+#font{
+    font-size: 27px;
+}
+ 
+#fontto {
+    font-size: 27px;
+}
+.line{
+    position:sticky;
+    border: 1px solid  rgb(133, 141, 150);
+  }
+ 
+.shead{
+    color: yellowgreen;
+}  
+
+.ktext{
+   font-size: 35px;
+   color: rgb(83, 96, 109);
+}
+
+.sline{
+    background-color:yellowgreen;
+    width: 15%;
+    height: 2px;
+}
+/* blog writer name */
+.writer{
+    color: black;
+
+}
+/* blog date */
+.date{
+    color: grey;
+}
+/* kendall image */
+.ken{
+  text-align: center;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.met{
+font-size: 28px;
+padding: 40px 100px;
+text-align: center;
+}
